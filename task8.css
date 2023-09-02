@@ -1,0 +1,83 @@
+body{
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+}
+
+.computer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1120px;
+    width: 72%;
+    margin: 40px auto;
+}
+
+.mehsul{
+    border: 1px solid #999999;
+    width: 400px;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+#comp{
+    width: 400px;
+    height: 325px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.paragraph{
+    margin-bottom: 10px;
+}
+
+.price{
+    color: red;
+    margin-bottom: 20px;
+}
+
+.melumatlar{
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.li{
+    display: list-item;
+    text-align: center;
+}
+
+.buy , .add{
+    color: rgb(189, 60, 189);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 10px 10px 0px;
+}
+
+.back{
+    font-size: 12px;
+    display: block;
+    font-style: italic;
+    color: black;
+    padding: 10px 10px 10px 0px;
+}
+
